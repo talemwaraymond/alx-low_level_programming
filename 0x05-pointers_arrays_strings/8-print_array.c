@@ -11,10 +11,10 @@ int inc;
 for (inc = 0; inc < n ; inc++)
 {
 if (inc != n - 1)
-_putchar("%d, ", a[inc]);
+printf("%d, ", a[inc]);
 else
-_putchar("%d", a[inc]);
+printf("%d", a[inc]);
 
 }
-_putchar("\n");
+printf("\n");
 }
